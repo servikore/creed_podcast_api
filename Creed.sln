@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creed.Podcast.Domain", "Creed.Podcast.Domain\Creed.Podcast.Domain.csproj", "{4C252390-CCEA-47EC-BCA8-DE79D5891389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creed.Podcast.Data", "Creed.Podcast.Data\Creed.Podcast.Data.csproj", "{58FB38A9-F0F0-4F79-9636-4F9CE72BB065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creed.Podcast.Services", "Creed.Podcast.Services\Creed.Podcast.Services.csproj", "{673261EA-DF0E-435B-BDD5-17F63550A5A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creed.Podcast.WebApi", "Creed.Podcast.WebApi\Creed.Podcast.WebApi.csproj", "{1892F5C5-FAA5-4A4D-9B24-87C496DEAA6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Creed.Podcast.DataMigration", "Creed.Podcast.DataMigration\Creed.Podcast.DataMigration.csproj", "{0778DE15-512C-4324-B46A-AE0C971E981A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C252390-CCEA-47EC-BCA8-DE79D5891389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C252390-CCEA-47EC-BCA8-DE79D5891389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C252390-CCEA-47EC-BCA8-DE79D5891389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C252390-CCEA-47EC-BCA8-DE79D5891389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58FB38A9-F0F0-4F79-9636-4F9CE72BB065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FB38A9-F0F0-4F79-9636-4F9CE72BB065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FB38A9-F0F0-4F79-9636-4F9CE72BB065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FB38A9-F0F0-4F79-9636-4F9CE72BB065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673261EA-DF0E-435B-BDD5-17F63550A5A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673261EA-DF0E-435B-BDD5-17F63550A5A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673261EA-DF0E-435B-BDD5-17F63550A5A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673261EA-DF0E-435B-BDD5-17F63550A5A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1892F5C5-FAA5-4A4D-9B24-87C496DEAA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1892F5C5-FAA5-4A4D-9B24-87C496DEAA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1892F5C5-FAA5-4A4D-9B24-87C496DEAA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1892F5C5-FAA5-4A4D-9B24-87C496DEAA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0778DE15-512C-4324-B46A-AE0C971E981A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0778DE15-512C-4324-B46A-AE0C971E981A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0778DE15-512C-4324-B46A-AE0C971E981A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0778DE15-512C-4324-B46A-AE0C971E981A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC297835-00CB-400E-84C3-234A123B64BF}
+	EndGlobalSection
+EndGlobal

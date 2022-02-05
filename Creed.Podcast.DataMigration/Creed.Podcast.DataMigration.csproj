@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Scripts\1_Create_Tables.sql" />
+    <None Remove="Scripts\2_Insert_Genres.sql" />
+    <None Remove="Scripts\3_Insert_Regions.sql" />
+    <None Remove="Scripts\4_Insert_Podcasts.sql" />
+    <None Remove="Scripts\5_Insert_PodcastGenres.sql" />
+    <None Remove="Scripts\6_Create_Missing_Indexes.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\1_Create_Tables.sql" />
+    <EmbeddedResource Include="Scripts\4_Insert_Podcasts.sql" />
+    <EmbeddedResource Include="Scripts\3_Insert_Regions.sql" />
+    <EmbeddedResource Include="Scripts\2_Insert_Genres.sql" />
+    <EmbeddedResource Include="Scripts\6_Create_Missing_Indexes.sql" />
+    <EmbeddedResource Include="Scripts\5_Insert_PodcastGenres.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup-core" Version="4.5.0" />
+    <PackageReference Include="dbup-sqlserver" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

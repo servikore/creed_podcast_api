@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext 'Server=localhost;Database=db_podcasts;Integrated Security=True' Microsoft.EntityFrameworkCore.SqlServer -Context PodcastDbContext -ContextDir . -OutputDir '..\Creed.Podcast.Domain\Entities' -Namespace Creed.Podcast.Domain.Entities -ContextNamespace Creed.Podcast.Data -Force
